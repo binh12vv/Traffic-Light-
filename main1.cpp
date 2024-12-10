@@ -58,7 +58,7 @@ void controlTrafficLights() {
         digitalWrite(red_LED2, LOW);
         digitalWrite(yellow_LED2, LOW);
         digitalWrite(green_LED2, HIGH);
-        delay(time_red_1); // Đèn đỏ 1 sáng trong thời gian đã đặt
+        
         step = 1;
         break;
 
@@ -69,7 +69,7 @@ void controlTrafficLights() {
         digitalWrite(red_LED2, LOW);
         digitalWrite(yellow_LED2, HIGH);
         digitalWrite(green_LED2, LOW);
-        delay(time_yellow_2); // Đèn vàng 2 sáng trong thời gian đã đặt
+        
         step = 2;
         break;
 
@@ -80,7 +80,7 @@ void controlTrafficLights() {
         digitalWrite(red_LED2, HIGH);
         digitalWrite(yellow_LED2, LOW);
         digitalWrite(green_LED2, LOW);
-        delay(time_green_1); // Đèn xanh 1 sáng trong thời gian đã đặt
+       
         step = 3;
         break;
 
@@ -91,7 +91,7 @@ void controlTrafficLights() {
         digitalWrite(red_LED2, HIGH);
         digitalWrite(yellow_LED2, LOW);
         digitalWrite(green_LED2, LOW);
-        delay(time_yellow_1); // Đèn vàng 1 sáng trong thời gian đã đặt
+       
         step = 0; // Reset về bước đầu tiên
         break;
     }
